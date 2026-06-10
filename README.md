@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Equipamentos Avariados (TI Educação)
+# Sistema de Gerenciamento de Equipamentos Avariados
 
 ## 📌 Descrição do Projeto
 Este projeto web foi desenvolvido para solucionar problemas de gestão de ativos físicos de informática no Setor de T.I. da Secretaria de Educação do Município de Penedo. O sistema digitaliza o fluxo de descarte e registro de máquinas sem conserto, provendo um controle digital ágil que centraliza os laudos técnicos e as datas de baixa patrimonial.
