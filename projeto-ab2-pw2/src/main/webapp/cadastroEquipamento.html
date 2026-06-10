@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Avarias</title>
+</head>
+<body>
+    <h1>Registrar Novo Equipamento</h1>
+    
+    <form action="insert" method="post">
+        <fieldset>
+            <legend>Dados da Baixa Patrimonial</legend>
+            <p>
+                <label>Nome do Equipamento:</label><br>
+                <input type="text" name="nome" required>
+            </p>
+            <p>
+                <label>Defeito Apresentado:</label><br>
+                <textarea name="defeito" rows="3" required></textarea>
+            </p>
+            <p>
+                <label>Data de Baixa:</label><br>
+                <input type="date" name="dataBaixa" required>
+            </p>
+            <p><input type="submit" value="Registrar Equipamento"></p>
+        </fieldset>
+    </form>
+    <br>
+    <a href="index.html">Voltar ao Menu</a>
+</body>
+</html>
